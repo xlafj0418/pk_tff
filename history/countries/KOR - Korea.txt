@@ -118,6 +118,7 @@ create_country_leader = {
 	expire = "1959.8.1"
 	ideology = despotism
 	traits = {
+		korea_emperor
 	}
 }
 
@@ -145,7 +146,7 @@ create_country_leader = {
 #해군 제독
 create_navy_leader = {
 	name = "Sin Sun seong"
-	portrait_path = "gfx/leaders/EOK/Portrait_EOK_Sin_Sun_seong.dds"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Sin_Sun_seong.dds"
 	traits = { naval_lineage battleship_adherent gunnery_expert ironside }
 	skill = 3
 	attack_skill = 5

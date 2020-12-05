@@ -120,6 +120,7 @@ create_country_leader = {
 	expire = "1959.8.1"
 	ideology = despotism
 	traits = {
+		korea_emperor
 	}
 }
 
@@ -141,6 +142,7 @@ create_country_leader = {
 	expire = "1972.5.11"
 	ideology = fascism_ideology
 	traits = {
+		korea_four_star
 	}
 }	
 
