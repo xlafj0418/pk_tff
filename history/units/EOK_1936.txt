@@ -109,7 +109,7 @@ instant_effect = {
 	add_equipment_production = { #소총 I
 		equipment = {
 			type = infantry_equipment_1
-			creator = "KOR"
+			creator = "EOK"
 		}
 		requested_factories = 2
 		progress = 0.79
@@ -120,7 +120,7 @@ instant_effect = {
 	add_equipment_production = { #지원 장비
 		equipment = {
 			type = support_equipment_1
-			creator = "KOR"
+			creator = "EOK"
 		}
 		requested_factories = 1
 		progress = 0.79

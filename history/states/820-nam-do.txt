@@ -1,7 +1,7 @@
 state = {
 	id = 820
 	name = "STATE_820" #남해 다도해 지역
-	manpower = 9000
+	manpower = 510000
 
 	state_category = small_island
 	

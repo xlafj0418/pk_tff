@@ -82,6 +82,10 @@ if = {
 	load_naval_oob = EOK_1936_Naval
 }
 
+add_ideas = {
+	all_adults_serve
+}
+
 #수송선
 set_convoys = 10
 
@@ -146,25 +150,12 @@ create_country_leader = {
 	}
 }	
 
-#육군(원수)
-create_field_marshal = {
-	name = "Yi Un"
-	id = 19362
-	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
-	traits = { politically_connected old_guard defensive_doctrine media_personality }
-	skill = 2
-    attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 3
-}
-
 #육군(대장)
 create_corps_commander = {
 	name = "Ji Cheong Cheone"
-	id = 19366
+	id = 25001
 	portrait_path = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon.dds"
-	traits = { inflexible_strategist infantry_officer defensive_doctrine }
+	traits = { inflexible_strategist commando defensive_doctrine skilled_staffer }
 	skill = 3
     attack_skill = 2
     defense_skill = 4
@@ -173,24 +164,24 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ahn Jung-geun"
-	id = 19369
-	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Ahn_Jung-geun.dds"
-	traits = { taunch_monarchist trickster winter_specialist }
-	skill = 3
-    attack_skill = 5
-    defense_skill = 2
+	name = "Kim Gyeongcheon"
+	id = 25000
+	portrait_path = "gfx/leaders/KOR/Portrait_kim_gyeongcheon.dds"
+	traits = { old_guard defensive_doctrine skilled_staffer commando }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 4
     planning_skill = 2
-    logistics_skill = 2
+    logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "Kim Suk won"
-	id = 19369
-	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.dds"
-	traits = { infantry_officer brilliant_strategist career_officer }
+	name = "Ahn Jung-geun"
+	id = 25002
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Ahn_Jung-geun.dds"
+	traits = { taunch_monarchist trickster winter_specialist commando }
 	skill = 3
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2

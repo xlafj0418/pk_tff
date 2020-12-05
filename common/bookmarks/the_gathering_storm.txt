@@ -169,6 +169,17 @@ bookmarks = {
 				ITA_italy_first
 			}		
 		}
+		"EOK"={
+			minor = yes
+			history = "EOK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -535,18 +546,6 @@ bookmarks = {
 				TUR_reaffirm_the_balkan_pact
 				TUR_pivot_to_the_past
 			}
-		}
-		
-		"EOK"={
-			minor = yes
-			history = "EOK_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				
-			}	
-			focuses = {
-				
-			}		
 		}
 		
 		effect = {
