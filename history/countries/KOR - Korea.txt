@@ -1,0 +1,96 @@
+﻿#수도
+capital = 525
+
+oob = "KOR_1936"
+
+#연구 슬롯
+set_research_slots = 3
+
+#연구
+set_technology = {
+	### 보병 ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	
+	### 지원 ###
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	
+	### 포병 ###
+	gw_artillery = 1
+	
+	### 공군 ###
+	early_fighter = 1
+	
+	### 육군 교리 ###
+	superior_firepower = 1
+	
+	### 산업/공학 ###
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+}
+
+#수송선
+set_convoys = 55
+
+#집권당
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+#정당 지지도
+set_popularities = {
+	democratic = 30
+	fascism = 40
+	communism = 3
+	neutrality = 27
+}
+
+#정당 지도자
+create_country_leader = {
+	name = "이승만"
+	desc = "kor_sr_desc"
+	picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		triumphant_revolutionary
+	}
+}
+
+create_country_leader = {
+	name = "이우"
+	desc = "kor_yi_desc"
+	picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+	expire = "1959.8.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "박헌영"
+	desc = "kor_ph_desc"
+	picture = "gfx/leaders/KOR/Portrait_Park_Heon_young.dds"
+	expire = "194.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "이범석"
+	desc = "kor_lb_desc"
+	picture = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.dds"
+	expire = "1972.5.11"
+	ideology = fascism_ideology
+	traits = {
+	}
+}	

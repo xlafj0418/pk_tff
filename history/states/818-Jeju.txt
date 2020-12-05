@@ -1,0 +1,34 @@
+state = {
+	id = 818
+	name = "STATE_818" #제주도
+	manpower = 50000
+
+	state_category = rural
+	
+	history = {
+		owner = EOK
+		add_core_of = EOK
+		add_core_of = KOR
+		
+		buildings = {
+			air_base = 2
+			arms_factory = 3
+			dockyard = 4
+			infrastructure = 4
+			1177 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1177 10 #제주
+		}
+	}
+
+	resources = {
+		
+	}
+
+	provinces = {
+		1177 
+	}
+}
