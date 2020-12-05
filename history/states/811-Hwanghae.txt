@@ -12,7 +12,7 @@ state = {
 		
 		buildings = {
 			industrial_complex = 2
-			infrastructure = 3
+			infrastructure = 5
 		}
 		victory_points = {
 			1003 10 #해주(카이슈)

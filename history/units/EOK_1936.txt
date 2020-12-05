@@ -103,3 +103,27 @@ units = {
 		start_equipment_factor = 1.0
 	}
 }
+
+#시작 생산 장비
+instant_effect = {
+	add_equipment_production = { #소총 I
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KOR"
+		}
+		requested_factories = 2
+		progress = 0.79
+		efficiency = 100
+	}
+}
+instant_effect = {
+	add_equipment_production = { #지원 장비
+		equipment = {
+			type = support_equipment_1
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+}

@@ -11,8 +11,9 @@ state = {
 		add_core_of = EOK
 
 		buildings = {
+			arms_factory = 2
 			industrial_complex = 1
-			infrastructure = 4
+			infrastructure = 5
 		}
 		victory_points = {
 			6944 10 #나진(라신)

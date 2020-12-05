@@ -61,7 +61,7 @@ if = {
 		basic_secondary_battery = 1
 		basic_depth_charges = 1
 	}
-	set_naval_oob = "KOR_1936_Naval"
+	set_naval_oob = "EOK_1936_Naval"
 }
 
 #해군(호구 에디션)"
@@ -79,7 +79,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "KOR_1936_Naval_Legacy"
+	load_naval_oob = EOK_1936_Naval
 }
 
 #수송선
@@ -144,12 +144,85 @@ create_country_leader = {
 	}
 }	
 
+#육군(원수)
+create_field_marshal = {
+	name = "Yi Un"
+	id = 19362
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+	traits = { politically_connected old_guard defensive_doctrine media_personality }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+#육군(대장)
+create_corps_commander = {
+	name = "Ji Cheong Cheone"
+	id = 19366
+	portrait_path = "gfx/leaders/KOR/Portrait_Ji_Cheongcheon.dds"
+	traits = { inflexible_strategist infantry_officer defensive_doctrine }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ahn Jung-geun"
+	id = 19369
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Ahn_Jung-geun.dds"
+	traits = { taunch_monarchist trickster winter_specialist }
+	skill = 3
+    attack_skill = 5
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kim Suk won"
+	id = 19369
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.dds"
+	traits = { infantry_officer brilliant_strategist career_officer }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+#해군 제독
+create_navy_leader = {
+	name = "Son Won Ile"
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Son_Won_il.dds"
+	traits = { bold aviation_enthusiast superior_tactician }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Shin Sung mo"
+	portrait_path = "gfx/leaders/KOR/z_Shin_Sung_mo.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
 if = {
 	limit = { has_dlc = "Man the Guns"}
 	#전함
 	create_equipment_variant = {
-		name = "융희황제급"
-		name_group = KOR_BB_HISTORICAL
+		name = "융희 황제급"
+		name_group = EOK_BB_HISTORICAL
 		type = ship_hull_heavy_1
 		parent_version = 0
 		modules = {
@@ -170,7 +243,7 @@ if = {
 	create_equipment_variant = {
 		name = "경주급"
 		type = ship_hull_cruiser_1
-		name_group = KOR_CA_HISTORICAL
+		name_group = EOK_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
@@ -190,7 +263,7 @@ if = {
 	create_equipment_variant = {
 		name = "평양급"
 		type = ship_hull_cruiser_1
-		name_group = KOR_CL_HISTORICAL
+		name_group = EOK_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -209,7 +282,7 @@ if = {
 	create_equipment_variant = {
 		name = "김구급"
 		type = ship_hull_light_2
-		name_group = KOR_DD_HISTORICAL
+		name_group = EOK_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -226,7 +299,7 @@ if = {
 	create_equipment_variant = {
 		name = "울산급"
 		type = ship_hull_light_1
-		name_group = KOR_DD_HISTORICAL
+		name_group = EOK_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -243,7 +316,7 @@ if = {
 	create_equipment_variant = {
 		name = "부산급"
 		type = ship_hull_submarine_1
-		name_group = KOR_SS_HISTORICAL
+		name_group = EOK_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -251,5 +324,4 @@ if = {
 			rear_1_custom_slot = ship_mine_layer_sub
 		}
 	}
-	
 }
