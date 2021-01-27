@@ -1,4 +1,4 @@
-version="0.0.1 BETA"
+version="0.0.1 Alpha"
 tags={
 	"Alternative History"
 	"National Focuses"
@@ -6,4 +6,4 @@ tags={
 	"Map"
 }
 name="PROJECT KOREA: The Freedom Flag"
-supported_version="1.10.3"
+supported_version="1.10.*"

@@ -143,6 +143,80 @@ create_country_leader = {
 	}
 }	
 
+#육군(원수)
+create_field_marshal_commander = {
+	name = "Kim Chwa chin"
+	id = 26000
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Chwa_chin.dds"
+	traits = { defensive_doctrine winter_specialist commando inspirational_leader }
+	skill = 5
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+#육군(대장)
+create_corps_commander = {
+	name = "Hong Sa ik"
+	id = 26001
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Hong_Sa_ik.dds"
+	traits = { defensive_doctrine winter_specialist fortress_buster }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Kim Hong il"
+	id = 19361
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Hong_il.dds"
+	traits = { politically_connected inflexible_strategist trickster career_officer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Lee Beom Seok"
+	id = 19364
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.dds"
+	traits = { KOR_imperial_family cavalry_officer brilliant_strategist politically_connected }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kim Won Bong"
+	id = 19368
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Won_bong.dds"
+	traits = { commando trickster brilliant_strategist }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kim Suk won"
+	id = 19369
+	portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.dds"
+	traits = { infantry_officer brilliant_strategist career_officer }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
 #해군 제독
 create_navy_leader = {
 	name = "Sin Sun seong"
