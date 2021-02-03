@@ -83,6 +83,11 @@ if = {
 #수송선
 set_convoys = 55
 
+#국민정신
+add_ideas = {
+	
+}
+
 #집권당
 set_politics = {
 	ruling_party = democratic

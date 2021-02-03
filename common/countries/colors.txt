@@ -699,6 +699,9 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
+KOR = {
+	color_ui = rgb { 0  64  128 }	
+}
 EOK = {
 	color = rgb { 0  52  120 }
 	color_ui = rgb { 0  52  120 }	
