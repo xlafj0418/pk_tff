@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	#국민정신
+	spriteType = {
+		name = "GFX_idea_spirit_of_sinmi"
+		texturefile = "gfx/interface/ideas/KOR/idea_spirit_of_sinmi.dds"
+	}	
+}

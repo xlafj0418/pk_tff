@@ -25,14 +25,6 @@ set_technology = {
 	### 공군 ###
 	early_fighter = 1
 	CAS1 = 1
-	
-	### 육군 교리 ###
-	superior_firepower = 1
-	
-	### 산업/공학 ###
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
 }
 
 #해군(노 맨더건)"

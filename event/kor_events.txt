@@ -1,0 +1,278 @@
+﻿add_namespace = korea
+
+country_event = {
+	id = korea.1
+	title = korea.1.title
+	desc = korea.1.desc
+	picture = GFX_report_event_hitler_handshake
+	fire_only_once = yes	
+    is_triggered_only = yes
+	
+	option = {
+		name = korea.1.a
+		create_country_leader = {
+			name = "Kim Koo"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Koo.dds"
+			expire = "1960.3.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = ROK_NKM_democratic_party_long
+			name = ROK_NKM_democratic_party
+		}
+		complete_national_focus = focus_kimkoo
+	}
+	option = {
+		name = korea.1.b
+		create_country_leader = {
+			name = "Syngman Rhee"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_Korea_syngman.dds"
+			expire = "1965.7.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = ROK_NKM_democratic_party2_long
+			name = ROK_NKM_democratic_party2
+		}
+		complete_national_focus = focus_rhee
+	}
+}
+
+country_event = {
+	id = korea.2
+	title = korea.2.title
+	desc = korea.2.desc
+	picture = GFX_report_event_Kor_empire_comeback
+	fire_only_once = yes	
+    is_triggered_only = yes
+	
+	option = {
+		name = korea.2.a
+		create_country_leader = {
+			name = "Yi Kang"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+			expire = "1955.8.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		add_ideas = KOR_Impire_Yi_Kang
+		create_field_marshal = {
+			name = "Yi Un"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+			traits = { politically_connected old_guard defensive_doctrine media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		
+		}
+		create_field_marshal = {
+			name = "Yi Wu"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+			traits = { politically_connected media_personality brilliant_strategist armor_officer trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	option = {
+		name = korea.2.b
+		create_country_leader = {
+			name = "Yi Un"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+			expire = "1970.5.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		add_ideas = KOR_Impire_Yi_Un
+		create_field_marshal = {
+			name = "Yi Kang"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+			traits = { politically_connected old_guard defensive_doctrine media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		
+		}
+		create_field_marshal = {
+			name = "Yi Wu"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+			traits = { politically_connected media_personality brilliant_strategist armor_officer trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+}
+
+country_event = {
+	id = korea.3
+	title = korea.3.title
+	desc = korea.3.desc
+	picture = GFX_report_event_Kor_empire_comeback
+	fire_only_once = yes	
+    is_triggered_only = yes
+	
+	option = {
+		add_ideas = KOR_Impire_Yi_Kang
+		name = korea.3.a
+		create_country_leader = {
+			name = "Yi Kang"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+			expire = "1955.8.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		create_field_marshal = {
+			name = "Yi Un"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+			traits = { politically_connected old_guard defensive_doctrine media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_field_marshal = {
+			name = "Yi Wu"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+			traits = { politically_connected media_personality brilliant_strategist armor_officer trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	option = {
+	    add_ideas = KOR_Impire_Yi_Un
+		name = korea.3.b
+		create_country_leader = {
+			name = "Yi Un"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+			expire = "1970.5.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		create_field_marshal = {
+			name = "Yi Kang"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+			traits = { politically_connected old_guard defensive_doctrine media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		create_field_marshal = {
+			name = "Yi Wu"
+			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+			traits = { politically_connected media_personality brilliant_strategist armor_officer trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+}
+
+country_event = {
+	id = korea.4
+	title = korea.4.title
+	desc = korea.4.desc
+	picture = 
+	fire_only_once = yes	
+    is_triggered_only = yes
+	
+	option = {
+		name = kor_4_a
+		if = {
+			limit = {
+				KOR = {
+					is_in_faction = no
+				}
+			}
+			create_faction = KOR_asia_union1
+		}
+	}
+	option = {
+		name = kor_4_b
+		if = {
+			limit = {
+				KOR = {
+					is_in_faction = no
+				}
+			}
+			create_faction = KOR_asia_union2
+		}
+	}
+	option = {
+		name = kor_4_c
+		if = {
+			limit = {
+				KOR = {
+					is_in_faction = no
+				}
+			}
+			create_faction = KOR_asia_union3
+		}
+	}
+	option = {
+		name = kor_4_d
+		if = {
+			limit = {
+				KOR = {
+					is_in_faction = no
+				}
+			}
+			create_faction = KOR_asia_union4
+		}
+	}
+}
+
+country_event = {
+	id = korea.5
+	title = korea.5.title
+	desc = korea.5.desc
+	picture = GFX_report_event_Kor_empire_comeback
+	fire_only_once = yes	
+    is_triggered_only = yes
+	
+	option = {
+		name = korea.5.a
+		set_cosmetic_tag = EOK_UNIFIED
+	}
+	option = {
+		name = korea.5.b
+		set_cosmetic_tag = JOS_UNIFIED
+	}

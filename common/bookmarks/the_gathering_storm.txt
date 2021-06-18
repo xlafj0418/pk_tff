@@ -115,7 +115,9 @@ bookmarks = {
 			history = "KOR_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				
+				KOR_spirit_of_sinmi
+				KOR_ideological_conflict
+				KOR_untruth_army
 			}	
 			focuses = {
 				

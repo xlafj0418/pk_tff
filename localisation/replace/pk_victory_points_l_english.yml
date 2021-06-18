@@ -6,53 +6,31 @@
  VICTORY_POINTS_12040:0 "개성"  #개성
 
  #강원도
- VICTORY_POINTS_13245:0 "춘천"  #춘천
- VICTORY_POINTS_9936:0 "원주"   #원주
  VICTORY_POINTS_7021:0 "강릉"   #강릉
 
- #함경북도
- VICTORY_POINTS_6944:0 "나신" #나진
- VICTORY_POINTS_6922:0 "성진"   #성진
+ #함경도
+ VICTORY_POINTS_6944:0 "나진" #나진
+ VICTORY_POINTS_3981:0 "함흥"   #성진
 
- #함경남도
- VICTORY_POINTS_6928:0 "함흥"   #함흥
- VICTORY_POINTS_848:0 "원산"    #원산
-
- #평안북도
+ #평안도
  VICTORY_POINTS_11835:0 "의주"  #의주 → 신의주
-
- #평안남도
- VICTORY_POINTS_13241:0 "평양"  #평양
- VICTORY_POINTS_4052:0 "남포"   #삼화 → 진남포 → 남포
+ VICTORY_POINTS_7171:0 "평양"  #평양
 
  #황해도
  VICTORY_POINTS_1003:0 "해주" #해주
 
- #충청북도
- VICTORY_POINTS_13246:0 "청주" #청주
+ #충청도
+ VICTORY_POINTS_13241:0 "대전" #대전
 
- #충청남도
- VICTORY_POINTS_13249:0 "대전" #대전
-
- #경상북도
+ #경상도
+  VICTORY_POINTS_4056:0 "동래"    #동래 → 부산
  VICTORY_POINTS_4086:0 "대구" #대구
 
- #경상남도
- VICTORY_POINTS_4056:0 "동래"    #동래 → 부산
- VICTORY_POINTS_13251:0 "창원"    #창원
-
- #전라북도
- VICTORY_POINTS_7175:0 "옥구"    #옥구 → 군산
- VICTORY_POINTS_11977:0 "전주"   #전주
-
- #전라남도
+ #전라도
  VICTORY_POINTS_10110:0 "광주"   #광주
 
  #제주도
  VICTORY_POINTS_1177:0 "제주" #제주
-
- #울릉도
- VICTORY_POINTS_13253:0 "울릉" #울릉
 
 
 

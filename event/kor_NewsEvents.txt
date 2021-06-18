@@ -1,0 +1,18 @@
+add_namespace = kor_news
+news_event = {
+	id = kor_news.1
+	title = kor_news.1.title
+	desc = kor_news.1.desc
+	picture = GFX_news_new_korean
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_news.1.a
+		trigger = {
+			TAG = KOR
+		}
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=813
+	name="제주도"
+	provinces={
+		1177 
+	}
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { #제주
+			1177 5
+		}
+		add_core_of = KOR
+	}
+	manpower=13800
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

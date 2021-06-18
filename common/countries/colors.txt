@@ -463,6 +463,9 @@ DDR = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
+KOR = {
+	color_ui = rgb { 160 240 75 }	
+}
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
@@ -699,10 +702,7 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
-KOR = {
-	color_ui = rgb { 0  64  128 }	
-}
-EOK = {
-	color = rgb { 0  52  120 }
-	color_ui = rgb { 0  52  120 }	
+PRK = {
+	color = rgb { 157  26  52 }
+	color_ui = rgb { 157  26  52 }
 }

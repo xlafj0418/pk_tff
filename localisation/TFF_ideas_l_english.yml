@@ -1,14 +1,14 @@
 ﻿l_english:
 
  #국민정신
- KOR_Weakening_the_kingship:0 "황권 약화"
- KOR_Weakening_the_kingship_desc:0 "현제 제국은 겉으로는 멀쩡하지만 속은 점점 약해져가는 황권과 지속되는 군부의 정치 개입, 제국 의회 입헌파들의 영향력 증가로 인해 황제의 목소리는 점점 줄어들고있습니다."
- KOR_political_officer:0 "정치장교"
- KOR_political_officer_desc:0 "군부의 정치개입으로 인해 장교과 정치인 두 일을 모두 하는 이른바 "정치장교"의 등장으로 중추원과 제국은 혼랍스럽습니다."
- KOR_weak_army:0 "나약한 군대"
- KOR_weak_army_desc:0 "현제 제국의 군대는 1931년 관동군이 단독으로 일으킨 만주사변의 소규묘 전투 이후 1번도 전투에 참가한적이 없고 교리마저도 구식인 군대입니다. 우리는 이런 군 상황을 반드시 개혁해야합니다."
- KOR_political_turmoil:0 "정치적 혼란"
- KOR_political_turmoil_desc:0 "제국의 오래된 문제인 정치적은 혼란은 우리 제국군에게까지 영향을 끼치고 있습니다."
+ KOR_spirit_of_sinmi:0 "신미혁명 정신"
+ KOR_spirit_of_sinmi_desc:0 "1931년 혁명으로 제정이 붕괴되고 한때 대한제국이라 불렸던 이 땅에는 새로운 국가가 들어섰습니다."
+ KOR_ideological_conflict:0 "이념 대립"
+ KOR_ideological_conflict_desc:0 "신미혁명으로 몇백년동안 이 국가를 통치하던 이씨왕조가 무너지며 생긴 공백은 이 나라에 각종 이념 대립을 만드는 결과를 제공합니다."
+ KOR_non_support_government:0 "지지받지 못하는 정부"
+ KOR_non_support_government_desc:0 "현 정부는 국민들으로부터 지지를 받지 못하고 있습니다."
+ KOR_untruth_army:0 "부실한 군대"
+ KOR_untruth_army_desc:0 "우리군은 매우 부실한 상태입니다. 계혁이 필요합니다."
  
  KOR_great_Yi_kang:0 "황실 우상화"
  KOR_great_Yi_kang_desc:0 "황실은 제국의 얼굴이며 자랑입니다."
