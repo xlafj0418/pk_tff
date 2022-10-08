@@ -6,11 +6,22 @@
 
 KOR = {
 	male = {
-		names = { Kim Lee Park Jung Jang Choi Kang Jo Yun Yim Han Oh Seo Sin Gwon Hwang An Song Jeon Hong Yu Go Mun Yang Son Bae Baek Huh Nam Sim Roh Ha Kwak Seong Cha Joo Goo }
+		names = { 김 김 김 김 김 김 김 김 김 김 김 김 이 이 이 이 이 이 이 박 박 박 박 박 박 최 정 강 조 윤 장 임 한 오 선 신 권 황 안 송 정 홍 유 고 문 양 선 배 조 백 허 유 남 심 노 }
 	}
 	female = {
-		names = { }
+		names = { 김 김 김 김 김 김 김 김 김 김 김 김 이 이 이 이 이 이 이 박 박 박 박 박 박 최 정 강 조 윤 장 임 한 오 선 신 권 황 안 송 정 홍 유 고 문 양 선 배 조 백 허 유 남 심 노 }
 	}
-	surnames = { Hyunseong Hyunchul Minchul Jaepil Young Jun Taeil Bongjun Junghwan Jaewoo Bongchang Sangok Jaesang Sunpil Doohan Jeongjae jaeseol byeong-og yangban yain dogil hangug manju hwangug sibal gwangju deagu gwanjin }
+	surnames = { 석열 재인 명박 무현 대중 영삼 태우 두환 규화 정희 보선 승만 인철 영신 정수 인호 승겸 준석 정수 태수 운용 필수 도일 원희 범석 청천 중근 경천 지석 재석 욱 진구 관진 민구 병태 양호 영희 종철 석호 성모 기봉 종찬 유리 옥 황천 }
+	callsigns = { }
+}
+
+EOK = {
+	male = {
+		names = { 김 김 김 김 김 김 김 김 김 김 김 김 이 이 이 이 이 이 이 박 박 박 박 박 박 최 정 강 조 윤 장 임 한 오 선 신 권 황 안 송 정 홍 유 고 문 양 선 배 조 백 허 유 남 심 노 }
+	}
+	female = {
+		names = { 김 김 김 김 김 김 김 김 김 김 김 김 이 이 이 이 이 이 이 박 박 박 박 박 박 최 정 강 조 윤 장 임 한 오 선 신 권 황 안 송 정 홍 유 고 문 양 선 배 조 백 허 유 남 심 노 }
+	}
+	surnames = { 석열 재인 명박 무현 대중 영삼 태우 두환 규화 정희 보선 승만 인철 영신 정수 인호 승겸 준석 정수 태수 운용 필수 도일 원희 범석 청천 중근 경천 지석 재석 욱 진구 관진 민구 병태 양호 영희 종철 석호 성모 기봉 종찬 유리 옥 황천 }
 	callsigns = { }
 }

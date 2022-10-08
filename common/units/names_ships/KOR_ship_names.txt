@@ -9,7 +9,7 @@ KOR_DD_HISTORICAL = {
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "ROKN "
-	fallback_name = "%번 구축함"					
+	fallback_name = "%d번 구축함"					
 
 	unique = {											
 		"광주" "여주" "파주" "양주" "수원" "광화" "부평" "남양" "이천" "인천" "장단" "양금" "평택" "안산" "삭령" "안성" "무천" "고양" "영인" "진위" "양평"
@@ -41,7 +41,7 @@ KOR_DE_HISTORICAL = {
 	ship_types = { ship_hull_light destroyer }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 호위구축함"
+	fallback_name = "%d번 호위구축함"
 
 	unique = {
 		"광주" "여주" "파주" "양주" "수원" "광화" "부평" "남양" "이천" "인천" "장단" "양금" "평택" "안산" "삭령" "안성" "무천" "고양" "영인" "진위" "양평"
@@ -73,7 +73,7 @@ KOR_CL_HISTORICAL = {
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 경순양함"
+	fallback_name = "%d번 경순양함"
 
 	unique = {
 		"설악" "지리" "대둔" "가야" "북한" "주왕" "명성" "남장" "신불" "속리" "규령" "오대" "강천" "민둥" "소요" "오세" "화왕" "울악" "천량" "덕유" "치악"
@@ -99,7 +99,7 @@ KOR_CA_HISTORICAL = {
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 중순양함"
+	fallback_name = "%d번 중순양함"
 
 	unique = {
 		"환인" "환웅" "단군" "치우" "설총" "성충" "화정" "소서노" "이사부" "이종인" "이지란" "퇴계 이황" "장보고" "장수왕" "세종대왕" "정기룡" "선왕" "정몽주"
@@ -121,7 +121,7 @@ KOR_MINELAYERS_HISTORICAL = {
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 기뢰부설함"
+	fallback_name = "%d번 기뢰부설함"
 
 	unique = {
 		"김정호" "김천일" "나대용" "동명왕" "맹사성" "명림답부" "명성" "남장" "신불" "속리" "규령" "오대" "강천" "민둥" "소요" "오세" "화왕" "울악" "천량" "덕유" "치악"
@@ -147,7 +147,7 @@ KOR_BB_HISTORICAL = {
 	ship_types = { ship_hull_heavy battleship }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 전함"		
+	fallback_name = "%d번 전함"		
 
 	unique = {
 		"을지문덕" "율곡 이이" "윤관" "류성룡" "유리명왕" "강감찬" "거칠부" "검모잠" "계백" "무왕" "문무대왕" "문자명왕" "문종" "백세" "박술희" "박위" "박진" "배현경"
@@ -166,7 +166,7 @@ KOR_BC_HISTORICAL = {
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 순양전함"		
+	fallback_name = "%d번 순양전함"		
 
 	unique = {
 		"환인" "환웅" "단군" "치우" "설총" "성충" "화정" "소서노" "이사부" "이종인" "이지란" "퇴계 이황" "장보고" "장수왕" "세종대왕" "정기룡" "선왕" "정몽주"
@@ -187,7 +187,7 @@ KOR_CV_HISTORICAL = {
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 항공모함"	
+	fallback_name = "%d번 항공모함"	
 
 	unique = {
 		"환인" "환웅" "단군" "치우" "설총" "성충" "화정" "소서노" "이사부" "이종인" "이지란" "퇴계 이황" "장보고" "장수왕" "세종대왕" "정기룡" "선왕" "정몽주"
@@ -208,7 +208,7 @@ KOR_CVL_HISTORICAL = {
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "ROKN "
-	fallback_name = "%번 경항공모함"	
+	fallback_name = "%d번 경항공모함"	
 
 	unique = {
 		"환인" "환웅" "단군" "치우" "설총" "성충" "화정" "소서노" "이사부" "이종인" "이지란" "퇴계 이황" "장보고" "장수왕" "세종대왕" "정기룡" "선왕" "정몽주"
@@ -229,7 +229,7 @@ KOR_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine submarine }
 	
 	prefix = "ROKN "
-	fallback_name = "잠-%번"
+	fallback_name = "잠-%d"
 	
 	ordered = {
 		1 = {"잠-1"}
@@ -325,7 +325,7 @@ KOR_PREFECTURES = {
 	type = ship
 
 	unique = {
-		"경기" "충청" "전라" "경상" "강원" "황해" "함경" "울릉" "제주"
+		"경기" "충청" "전라" "경상" "강원" "황해" "함경" "영안" "통백" "용강" "장길" "목계" "북해"
 	}
 }
 ### 도시 ###
@@ -337,7 +337,7 @@ KOR_CITIES = {
 	type = ship
 
 	unique = {
-		"한성" "수원" "화성" "동래" "인천" "광주" "대구" "대전" "강릉" "개성" "사리원" "포항" "남포" "함흥" "원산" 
+		"한성" "수원" "화성" "부산" "인천" "광주" "대구" "대전" "강릉" "개성" "사리원" "포항" "남포" "함흥" "원산" 
 		"신의주" "청진" "나진" "심양" "합이빈"
 	}
 }

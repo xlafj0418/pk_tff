@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #국민정신
+ #한국
  KOR_spirit_of_sinmi:0 "신미혁명 정신"
  KOR_spirit_of_sinmi_desc:0 "1931년 혁명으로 제정이 붕괴되고 한때 대한제국이라 불렸던 이 땅에는 새로운 국가가 들어섰습니다."
  KOR_ideological_conflict:0 "이념 대립"
@@ -9,6 +9,10 @@
  KOR_non_support_government_desc:0 "현 정부는 국민들으로부터 지지를 받지 못하고 있습니다."
  KOR_untruth_army:0 "부실한 군대"
  KOR_untruth_army_desc:0 "우리군은 매우 부실한 상태입니다. 계혁이 필요합니다."
+ 
+ #일본
+ tenno_showa:0 "쇼와 천황"
+ tenno_showa_desc:0 "일본의 제 124대 천황인 쇼와 덴노는 일본의 상징이자 일본 국민들의 우상으로서의 역할을 확실히 하고 있습니다. 만약 이런 상황에서 천황이 사라진다면 일본 사회의 엄청난 혼란을 불러일으킬 것 입니다."
  
  KOR_great_Yi_kang:0 "황실 우상화"
  KOR_great_Yi_kang_desc:0 "황실은 제국의 얼굴이며 자랑입니다."

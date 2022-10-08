@@ -1,0 +1,29 @@
+
+state={
+	id=913
+	name="STATE_913"
+	resources={
+		steel=17.000
+		chromium=65.000
+	}
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12011 3
+		}
+		add_core_of = KOR
+		add_core_of = EOK
+	}
+
+	provinces={
+		7021 9936 11912 12011 13259 
+	}
+	manpower=690305
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,35 @@
+characters={
+	PRK_kim_il_sung = {
+		name = PRK_kim_il_sung
+		portraits={
+			civilian={
+				large = "gfx/leaders/KOR/Portrait_KOR_Kim_Il-sung.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={
+				stalins_puppet
+			}
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
+
+	PRK_taejo_kim_il_sung = {
+		name = PRK_taejo_kim_il_sung
+		portraits={
+			civilian={
+				large = "gfx/leaders/KOR/Portrait_KOR_Kim_Il-sung.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={
+				inexperienced_monarch
+			}
+			expire="1956.1.1.1"
+			id=-1
+		}
+	}
+}

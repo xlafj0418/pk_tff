@@ -1,1 +1,3 @@
 EOK = "countries/EOK.txt"
+QIN = "countries/Qing.txt"
+CBG = "countries/China Beijing.txt"

@@ -5,5 +5,5 @@ tags={
 	"Events"
 	"Map"
 }
-name="PROJECT KOREA: The Freedom Flag"
-supported_version="1.10.*"
+name="The Freedom Flag"
+supported_version="1.12.*"

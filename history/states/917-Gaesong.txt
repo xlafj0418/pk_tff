@@ -1,0 +1,25 @@
+state={
+	id=917
+	name="STATE_917"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			12040 5 
+		}
+		add_core_of = KOR
+		add_core_of = EOK
+	}
+
+	provinces={
+		12040
+	}
+	manpower=72261
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
+

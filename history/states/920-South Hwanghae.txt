@@ -1,0 +1,28 @@
+state={
+	id=920
+	name="STATE_920"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			13267 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			13267 1 #옹진 
+		}
+		add_core_of = KOR
+		add_core_of = EOK
+	}
+
+	provinces={
+		13267 13268
+	}
+	manpower=53013
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

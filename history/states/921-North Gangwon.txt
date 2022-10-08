@@ -1,0 +1,21 @@
+state={
+	id=921
+	name="STATE_921"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KOR
+		add_core_of = EOK
+	}
+
+	provinces={
+		9981 4004 11958
+	}
+	manpower=41302
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
